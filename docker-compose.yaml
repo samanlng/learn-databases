@@ -6,7 +6,7 @@ services:
       - "ACCEPT_EULA=1"
       - "MSSQL_SA_PASSWORD=SU2orange!"
     ports:
-      - "1433:1433"
+      - "1434:1433"
     hostname: mssql
     volumes:
       - "mssql-2019-data:/var/opt/mssql"
